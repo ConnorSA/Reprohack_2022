@@ -1,0 +1,13 @@
+File scf.in contains information about Be@CNT system.
+
+In order to perform the calculations for pristine CNT
+modify scf.in file respetively and rerun the calculations
+as following.
+
+Sequence of QE runs for calculation of derivative of force constants
+1) pw.x < scf.in  
+2) ph.x < ph.in   
+3) d3.x < d3.in 
+
+After the final run QE will create the file becnt.dyn (cnt.dyn)
+files as referenced in the subdirectory ref.
