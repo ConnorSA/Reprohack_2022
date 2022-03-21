@@ -1,0 +1,17 @@
+Phonon dispersion for Be@cnt
+ &inputph
+  tr2_ph  = 1.0d-14
+  prefix  = 'cntbe'
+  epsil   = .false.
+  trans   = .true.
+  outdir  = './temp_fine/'
+  fildyn  = 'be_fine.dyn'
+  fildrho = 'be_fine.drho'
+  nq1     = 1
+  nq2     = 1
+  nq3     = 40
+  search_sym = .false.
+  recover = .true.
+! drho_star%open = .true.
+! drho_star%ext  = 'drho',
+ /

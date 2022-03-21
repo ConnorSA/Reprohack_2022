@@ -1,0 +1,12 @@
+Anharmonic phonon-phonon calculatation Be@CNT
+&inputph
+   prefix    = 'cntbe',
+   fildrho   = 'be_fine.drho'
+   fild0rho  = 'be_fine.drho',
+   amass(1)  = 4,
+   amass(2)  = 6,
+   outdir    = 'temp_fine/',
+   fildyn    = 'cntbe.dyn',
+   recv      = .true.
+ /
+0.0 0.0 0.0

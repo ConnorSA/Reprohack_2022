@@ -1,0 +1,5 @@
+&input
+    asr   = 'crystal'
+    flfrc = 'becnt.fc'
+    flfrq = 'becnt.freq'
+ /

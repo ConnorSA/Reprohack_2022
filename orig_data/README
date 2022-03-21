@@ -1,0 +1,16 @@
+This directory contains the data graphically represented in 
+Phys. Rev. B 95, 121408 (R)
+
+The results of iterative integration of BTE, presented on the Fig.3
+are given in the IV.data file
+
+The intergration of BTE conducted in the study requires:
+1) Band structures
+2) Phonon dispersions
+3) Electron-phonon constants
+4) Third derivatives of the force constants 
+
+of prestine CNT and Be@CNT respectively.
+
+The data 1)-4) was obtained with Quantum Espresso suite. The input files
+for the corresponding calculations are located in the subdirectories EP and D3

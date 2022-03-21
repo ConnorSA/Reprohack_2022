@@ -1,0 +1,16 @@
+File scf.in contains information about Be@CNT system.
+
+In order to perform the calculations for pristine CNT
+modify scf.in file respetively and rerun the calculations
+as following.
+
+Sequence of QE runs for calculation of phonon dispersion and 
+electron-ehonon couplings:
+1) pw.x    < scf.fit.in     
+2) pw.x    < scf.ph.in      
+3) ph.x    < elph.in
+4) q2r.x   < q2r.in
+5) matdyn.x< matdyn.in
+
+QE will generate the files with values of electron-phonon coupling constants for each q-point.
+Superimposition of those values with the phonon dispersionwas used for the Fig.2 in the article.
