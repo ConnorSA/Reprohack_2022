@@ -1,0 +1,10 @@
+dict(KS_method='parallel',
+     RI_method='LVL_fast',
+     default_initial_moment=0,
+     k_grid=[1, 1, 500],
+     occupation_type=['gaussian', 0.68],
+     preconditioner=['kerker', 2.0],
+     sc_accuracy_forces=0.0001,
+     species_dir='/sulis/institutions/warwick/easybuild/software/FHI-aims/210716_2-foss-2021b/species_defaults/defaults_2020/light',
+     spin='none',
+     xc='blyp')
