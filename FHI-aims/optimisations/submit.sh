@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -J opt_wire
+#SBATCH -J opt_tube+wire
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=128
 #SBATCH --mem-per-cpu=3850
@@ -13,6 +13,6 @@ module purge
 module restore aims
 
 bset="tight"
-system="wire"
+system="tube+wire"
 
 python run_calc.py $bset $system

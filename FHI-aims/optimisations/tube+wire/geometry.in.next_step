@@ -1,0 +1,36 @@
+# 
+# This is the geometry file that corresponds to the current relaxation step.
+# If you do not want this file to be written, set the "write_restart_geometry" flag to .false.
+#  aims_uuid : 5E50A6BF-445B-428B-AD82-F568C8789586                                
+# 
+lattice_vector     19.10993014     -0.78591887     -0.00473360
+lattice_vector      0.78539857     18.50203128     -0.00461198
+lattice_vector     -0.00510228      0.00024008      2.46738429
+atom_frac       0.45717869      0.54060161      0.39924267 Be
+atom_frac       0.63661500      0.51702580      0.50297517 C
+atom_frac       0.58915217      0.41261618      0.00190923 C
+atom_frac       0.49118604      0.35713855      0.50010897 C
+atom_frac       0.38031089      0.37161276     -0.00187993 C
+atom_frac       0.29883798      0.45077408      0.49689766 C
+atom_frac       0.27778614      0.56413992     -0.00335484 C
+atom_frac       0.32540304      0.66853174      0.49775423 C
+atom_frac       0.42325476      0.72411880     -0.00048381 C
+atom_frac       0.53415997      0.70948728      0.50149560 C
+atom_frac       0.61569539      0.63046858      0.00276822 C
+atom_frac       0.62803969      0.47891310      0.00271597 C
+atom_frac       0.56042253      0.38712946      0.50138430 C
+atom_frac       0.45342970      0.35382506     -0.00061261 C
+atom_frac       0.34793027      0.39198872      0.49765759 C
+atom_frac       0.28407936      0.48684287     -0.00338233 C
+atom_frac       0.28650534      0.60221638      0.49695113 C
+atom_frac       0.35403501      0.69413337     -0.00176793 C
+atom_frac       0.46102357      0.72728043      0.50023755 C
+atom_frac       0.56661738      0.68923945      0.00200557 C
+atom_frac       0.63031851      0.59433982      0.50300358 C
+# 
+# What follows is the current estimated Hessian matrix constructed by the BFGS algorithm.
+# This is NOT the true Hessian matrix of the system.
+# If you do not want this information here, switch it off using the "hessian_to_restart_geometry" keyword.
+# 
+trust_radius             0.0455237400
+hessian_file
