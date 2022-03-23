@@ -23,9 +23,13 @@ for j in range(np.shape(frms)[1]):
     plt.plot(blist, frms[:, j], label=f'A{j+1}')
 
 plt.ylabel('RMS Force on Atom / eV/Ang')
-plt.legend()
+# plt.legend()
 plt.savefig('f_conv.png', dpi=100)
 
+print('Analysis results - RMS force per atom\n')
 print('Frms (really_tight) - Frms (tight):')
+diffs = np.zeros(np.shape(frms)[1])
 for j in range(np.shape(frms)[1]):
-    print(f'A{j+1}: {frms[-1, j] - frms[-2, j]}')
+    diffs[j] = frms[-1, j] - frms[-2, j]
+    print(f'A{j+1}: {diffs[j]}')
+print(f'\nMax. RMS force difference between tight and really_tight basis sets: {max(diffs)}')
