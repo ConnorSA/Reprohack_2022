@@ -61,6 +61,7 @@ print(forces)
 energy = mol.get_potential_energy()
 print('\nCalculated energy:')
 print(energy)
+pos = mol.get_positions()
 
 np.save('f.npy', forces)
 np.save('e.npy', np.array([energy]))

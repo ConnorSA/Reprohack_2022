@@ -1,0 +1,18 @@
+Restoring modules from user's aims
+Read in structure.
+Atomic positions:
+[[9.17337987 9.64067763 0.92226429]]
+
+Unit cell:
+Cell([[19.1230500920856, -0.786458438781509, -0.00473684487563405], [0.785459901084019, 18.5034761550599, -0.00461234345356856], [-0.00505965426374022, 0.00023807418300801, 2.44677315902897]])
+
+PBCs:
+[False False  True]
+
+/home/m/msupxs/.local/lib/python3.9/site-packages/ase/io/aims.py:232: UserWarning: Setting scaled to True because a symmetry_block is detected.
+  warnings.warn(
+Calculated forces:
+[[0. 0. 0.]]
+
+Calculated energy:
+-400.15511840505
